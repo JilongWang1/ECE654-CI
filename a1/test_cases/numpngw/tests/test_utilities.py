@@ -1,8 +1,12 @@
 from __future__ import division, print_function
 
+import os
+import sys
 import unittest
 import numpy as np
 from numpy.testing import assert_equal, assert_array_equal
+#nump_path = os.path("..")
+sys.path.append('..')
 import numpngw
 
 
